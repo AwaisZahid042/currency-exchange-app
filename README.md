@@ -6,7 +6,7 @@ Exchange rates data is collected from [European Central Bank](https://www.ecb.eu
 ## Components
 
 * Dynamodb table for storing exchange rates.
-* Lambda function for periodically updating exchange rates. Scheduled to run at 16:00:00 UTC daily.
+* Lambda function for periodically updating exchange rates. Scheduled to run at 13:00:00 UTC daily.
 * REST API for fetching exchange rates.
 * Lambda function connected to the REST API, for reading exchange rates from Dynamodb.
 
