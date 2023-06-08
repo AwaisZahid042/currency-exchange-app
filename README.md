@@ -1,4 +1,4 @@
-# Serverless Exchange Rates Tracking Application
+#Serverless Exchange Rates Tracking Application
 The Serverless Exchange Rates Tracking Application is a serverless application developed in the AWS Lambda environment, deployable using AWS CDK. It collects exchange rates data from the European Central Bank (ECB) and provides a REST API for fetching the latest exchange rates. The application utilizes a DynamoDB table for storing the exchange rates and includes a scheduled Lambda function for periodically updating the exchange rates.
 
 Components
@@ -6,15 +6,15 @@ DynamoDB table: Stores the exchange rates data.
 Lambda function (UpdateExchangeRates): Runs at 16:00:00 UTC daily to update the exchange rates in DynamoDB.
 REST API: Provides endpoints for fetching exchange rates.
 Lambda function (GetExchangeRates): Connected to the REST API, reads exchange rates from DynamoDB.
-# Architecture
+#Architecture
 The application follows the following architecture:
 
-# Architecture Diagram
+#Architecture Diagram
 
-# REST API
+#REST API
 Once deployed, the application exposes a REST API endpoint that provides the latest exchange rates published by the ECB, along with the change in rates compared to the last published update.
 
-# Sample Response:
+Sample Response:
 
 json
 Copy code
