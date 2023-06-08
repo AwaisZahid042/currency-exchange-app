@@ -10,7 +10,6 @@ Exchange rates data is collected from [European Central Bank](https://www.ecb.eu
 * REST API for fetching exchange rates.
 * Lambda function connected to the REST API, for reading exchange rates from Dynamodb.
 
-![Architecture](architecture.png?raw=true)
 
 ## REST API
 
